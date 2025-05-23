@@ -1,6 +1,6 @@
 export const lumiere = [
   {
-    question: "À votre avis, combien de film ont été produits en 2024 ? ",
+    question: "À votre avis, combien de films ont été produits en 2024 ? ",
     responses: [
       {
         text: "Environ 1000",
@@ -21,10 +21,10 @@ export const lumiere = [
     ],
   },
   {
-    question: "Commençons par le tout début, qui sont fondateur du cinéma ?",
+    question: "Commençons par le tout début, qui sont les fondateurs du cinéma ?",
     responses: [
       {
-        text: "Les frères lumières",
+        text: "Les frères Lumières",
         correct: true,
       },
       {
@@ -42,7 +42,7 @@ export const lumiere = [
     ],
   },
   {
-    question: "Quand a-t-il été présenter pour la première fois ? ",
+    question: "Quand a-t-il été présenté pour la première fois ? ",
     responses: [
       {
         text: "1852",
@@ -62,6 +62,7 @@ export const lumiere = [
       },
     ],
   },
+<<<<<<< HEAD
 ];
 
 export const test = [
@@ -98,4 +99,111 @@ export const test = [
       },
     ],
   },
+=======
+  {
+    question: "Que s'est-il passé lors de la première projection publique et payante ? ",
+    responses: [
+      {
+        text: "Les spectateurs ont applaudais",
+        correct: false,
+      },
+      {
+        text: "Les spectateurs ont eu peur de l'image",
+        correct: true,
+      },
+      {
+        text: "Les spectateurs se sont enfuis et en ont appelés à la sorcellerie",
+        correct: false,
+      },
+      {
+        text: "Les spectateurs ont encensé les frères Lumières",
+        correct: false,
+      }
+    ],
+  },
+  {
+    question: "Mais avant cela, dans quoi les frères Lumières ont-il fait fortune ?",
+    responses: [
+      {
+        text: "La photographie en pellicule",
+        correct: true,
+      },
+      {
+        text: "La télévision",
+        correct: false,
+      },
+      {
+        text: "La photographie numérique",
+        correct: false,
+      },
+      {
+        text: "La papetterie",
+        correct: false,
+      }
+    ],
+  },
+  {
+    question: "Comment s'appelle le premier procédé de photographie en couleur inventé en parallèle au cinéma ?",
+    responses: [
+      {
+        text: "Multichrome",
+        correct: false,
+      },
+      {
+        text: "Telechrome",
+        correct: false,
+      },
+      {
+        text: "Autochrome",
+        correct: true,
+      },
+      {
+        text: "Technicolor",
+        correct: false,
+      }
+    ],
+  },
+  {
+    question: "Quel était le composant principal des pellicules",
+    responses: [
+      {
+        text: "Des pommes de terre",
+        correct: true,
+      },
+      {
+        text: "Du plomb",
+        correct: false,
+      },
+      {
+        text: "De l'aluminium",
+        correct: false,
+      },
+      {
+        text: "De l'amidon",
+        correct: false,
+      }
+    ],
+  },
+  {
+    question: "Que trouve-t-on aujourd'hui à l'emplacement de leurs maisons ?",
+    responses: [
+      {
+        text: "Un cinéma",
+        correct: false,
+      },
+      {
+        text: "Un hôtel particulier privé",
+        correct: false,
+      },
+      {
+        text: "Un musée qui leur est dédié",
+        correct: true,
+      },
+      {
+        text: "La piscine municipal",
+        correct: false,
+      }
+    ],
+  }
+>>>>>>> 45bdd5e0d8e0c5a83e8b4adc4c119c5064350acb
 ];
