@@ -17,7 +17,7 @@ export const lumiere = [
       {
         text: "Entre 12000-14000",
         correct: false,
-      }
+      },
     ],
   },
   {
@@ -38,7 +38,7 @@ export const lumiere = [
       {
         text: "La famille Joestar",
         correct: false,
-      }
+      },
     ],
   },
   {
@@ -59,7 +59,43 @@ export const lumiere = [
       {
         text: "1908",
         correct: false,
-      }
+      },
     ],
-  }
+  },
+];
+
+export const test = [
+  {
+    id: 475412159,
+    nbQuestions: 12,
+    title: "Ouais",
+    qcm: [
+      {
+        question: "...",
+        responses: [
+          {
+            text: "Ouais",
+            correct: true,
+          },
+          {
+            text: "Non",
+            correct: false,
+          },
+        ],
+      },
+      {
+        question: "...",
+        responses: [
+          {
+            text: "Ouais",
+            correct: true,
+          },
+          {
+            text: "Non",
+            correct: false,
+          },
+        ],
+      },
+    ],
+  },
 ];

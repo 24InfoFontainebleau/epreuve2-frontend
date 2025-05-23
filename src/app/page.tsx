@@ -27,7 +27,7 @@ export default function Home() {
           <h1>Theme to find</h1>
         </div>
         <Link
-          href="/cineconcert"
+          href="/cine"
           className={`${styles.card} ${styles.philoCard}`}
           style={{ backgroundImage: `url(${cineconcert.src})` }}
         >
