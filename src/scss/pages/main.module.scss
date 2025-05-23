@@ -4,7 +4,7 @@
   flex: 1;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
   place-content: center;
 
@@ -15,6 +15,10 @@
     border-right: 6px solid $border;
     border-radius: 5px;
     transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
       border-bottom: 6px solid $border;
@@ -22,16 +26,42 @@
       border-left: 4px solid $border;
       border-right: 4px solid $border;
       background-color: $background;
+      opacity: 0.8;
+      cursor: pointer;
     }
   }
 
   .lumiereCard {
     grid-row: 1 / -1;
     grid-column: 1/2;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    padding: 5px;
+
+    .cardTitle {
+      font-size: 3rem;
+      color: $textColor;
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+        1px 1px 0 black;
+      padding: 15px;
+    }
   }
 
   .partyCard {
     grid-row: 1 / 3;
-    grid-column: 2 / 3;
+    grid-column: 2 / 4;
+  }
+
+  .cineCard {
+    grid-row: 1 / 3;
+    grid-column: 4 / 6;
+  }
+
+  .philoCard {
+    grid-row: 3 / -1;
+    grid-column: 2 / -1;
   }
 }
