@@ -1,0 +1,11 @@
+@use "sass:color";
+
+$primary: #3c3f4a;
+$primaryHover: #c0c0c0;
+$background: #faf9f6;
+$border: #999999;
+$footer: $primary;
+$componentColors: #6f65f1;
+$componentColorsHover: color.adjust(#6f65f1, $lightness: -5%);
+$textColor: #888;
+$error: #ff0000;

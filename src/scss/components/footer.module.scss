@@ -1,0 +1,103 @@
+@use "../variables" as *;
+@use "sass:color";
+
+.footer {
+  color: #ffffff;
+  width: 100%;
+  height: fit-content;
+  background-color: $footer;
+  gap: 10px;
+  padding: 4rem 12dvw 1rem 12dvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .redirections {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .logoAndInfos {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      cursor: default;
+
+      .logo {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        gap: 3px;
+        font-size: 1.5rem;
+        color: #ffffff;
+        text-decoration: none;
+
+        .logoImage {
+          width: 3rem;
+          height: auto;
+          color: #ffffff;
+        }
+      }
+
+      .appInfos {
+        font-size: 0.833rem;
+        margin-top: 5px;
+        color: #ffffffaa;
+
+        .phoneIcon {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .redirectionsContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 7.5dvw;
+
+      .redirectionsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .sectionname {
+          font-size: 1.2rem;
+          margin-bottom: 5px;
+        }
+
+        .redirectionButton {
+          width: 100%;
+          height: fit-content;
+          color: #ffffffaa;
+          background-color: transparent;
+          border: none;
+          text-align: left;
+          text-decoration: none;
+          font-size: 0.833rem;
+          cursor: pointer;
+          margin-top: 5px;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    opacity: 0.6;
+    margin-top: 2rem;
+  }
+}

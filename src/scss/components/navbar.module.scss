@@ -1,0 +1,54 @@
+@use "../variables" as *;
+
+.navbar {
+  width: 100%;
+  background-color: $primary;
+  gap: 10px;
+  height: 70px;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .logo {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 3px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+
+    .logoImage {
+      width: 3rem;
+      height: auto;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+
+  .navbarButtons {
+    display: flex;
+    align-items: center;
+
+    .button {
+      padding: 3px 15px;
+      border-left: 1px solid $border;
+      border-right: 1px solid $border;
+      color: #ffffff;
+      transition: 0.5s;
+      cursor: pointer;
+      white-space: nowrap;
+      text-decoration: none;
+
+      &:hover {
+        color: $primaryHover;
+      }
+    }
+  }
+}

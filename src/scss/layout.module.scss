@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+.pageContainer {
+  height: calc(100dvh - 70px);
+  overflow-y: scroll;
+  width: 100%;
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100dvh - 70px);
+    padding: 2rem;
+
+    .icon {
+      position: absolute;
+      top: 10%;
+      left: 25%;
+      max-height: 90%;
+      z-index: -1;
+      opacity: 0.1;
+    }
+  }
+}
