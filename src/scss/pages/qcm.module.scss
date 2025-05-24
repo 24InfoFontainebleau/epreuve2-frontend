@@ -33,6 +33,11 @@
     }
   }
 
+  .error {
+    color: $error;
+    font-size: 0.9em;
+  }
+
   .qcmButton {
     display: flex;
     justify-content: center;
