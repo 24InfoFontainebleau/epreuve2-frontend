@@ -37,12 +37,6 @@ export default function Footer() {
             <Link href="/about" className={styles.redirectionButton}>
               À propos
             </Link>
-            <Link href="/faq" className={styles.redirectionButton}>
-              FAQ
-            </Link>
-            <Link href="/preferences" className={styles.redirectionButton}>
-              Accessibilité
-            </Link>
           </div>
           <div className={styles.redirectionsection}>
             <h4 className={styles.sectionname}>Légal</h4>
