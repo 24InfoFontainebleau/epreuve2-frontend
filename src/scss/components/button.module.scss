@@ -1,0 +1,18 @@
+@use "../variables" as *;
+
+.button {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 1px solid;
+  background-color: $componentColors;
+  color: #ffffff;
+  transition: 0.5s;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $componentColorsHover;
+  }
+}
