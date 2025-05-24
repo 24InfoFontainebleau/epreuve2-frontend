@@ -1,34 +1,36 @@
 export const test = [
   {
-    id: 14968,
+    id: 0,
     nbQuestions: 2,
-    title: "Ouais",
+    title: "Les frères Lumières",
     qcm: [
       {
-        question: "...",
+        question: "Comment s'appellent les frères Lumières ?",
         responses: [
           {
-            text: "Ouais",
-            correct: true,
+            id: 1,
+            text: "Louis et Auguste",
           },
           {
-            text: "Non",
-            correct: false,
+            id: 2,
+            text: " Louis et Pierre",
           },
         ],
+        correct: 1,
       },
       {
-        question: "...",
+        question: "Ont-ils inventé le cinéma ?",
         responses: [
           {
-            text: "Ouais",
-            correct: true,
+            id: 1,
+            text: "Oui",
           },
           {
+            id: 2,
             text: "Non",
-            correct: false,
           },
         ],
+        correct: 1,
       },
     ],
   },

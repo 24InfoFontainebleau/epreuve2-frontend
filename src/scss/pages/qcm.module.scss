@@ -6,17 +6,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 
-  .qcmTitle {
-  }
+  .qcmHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 
-  .qcmQuestion {
+    .qcmQuestion {
+      border-bottom: 1px solid $border;
+      padding-bottom: 5px;
+    }
   }
 
   .qcmAnswer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .answer {
+      cursor: pointer;
+    }
   }
 
   .qcmButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     Button {
       width: fit-content;
     }
